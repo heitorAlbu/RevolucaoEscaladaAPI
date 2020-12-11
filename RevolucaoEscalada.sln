@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C9638E11-8FAC-48D1-AF50-133ADBA3513C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{389440B2-E798-45D2-8A5B-A5E326EE2D06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3A27D652-F399-4864-B0B6-7A1DB847C02F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E4EC1659-BE36-4A4E-BD56-B54C06DAD81B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevolucaoEscalada.Domain", "RevolucaoEscalada.Domain\RevolucaoEscalada.Domain.csproj", "{77F12C0A-9A17-432C-BBF6-4079DFF26BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F12C0A-9A17-432C-BBF6-4079DFF26BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F12C0A-9A17-432C-BBF6-4079DFF26BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F12C0A-9A17-432C-BBF6-4079DFF26BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F12C0A-9A17-432C-BBF6-4079DFF26BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77F12C0A-9A17-432C-BBF6-4079DFF26BFD} = {389440B2-E798-45D2-8A5B-A5E326EE2D06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E72C52E-1DFF-4FFB-8865-B79FAB407F47}
+	EndGlobalSection
+EndGlobal
